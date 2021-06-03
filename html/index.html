@@ -10,21 +10,29 @@
 <body>
 	<main class="container">
 		<nav class="nav">
-			<img src="../assets/Logo.svg" alt="Logo" class="nav__logo">
+			<div class="nav__menu">
+				<img src="../assets/Logo.svg" alt="Logo" class="nav__logo">
+				<div class="nav__toggle">
+					<label for="toggle" class="nav__hamburger">&#9776;</label>
+				</div>
+			</div>
+
+			<input type="checkbox" id="toggle">
 			<ul class="nav__items">
 				<li class="nav__item">
-					<a href="">Home</a>
+					<a href="#">Home</a>
 				</li>
 				<li class="nav__item">
-					<a href="">Features</a>
+					<a href="#">Features</a>
 				</li>
 				<li class="nav__item">
-					<a href="">Pricing</a>
+					<a href="#">Pricing</a>
 				</li>
-				<li class="nav__item nav__item--subscribe">
-					<a href="">Subscribe</a>
+				<li class="nav__item nav__cta">
+					<a href="" class="">Subscribe</a>
 				</li>
 			</ul>
+
 		</nav>
 	</main>
 </body>

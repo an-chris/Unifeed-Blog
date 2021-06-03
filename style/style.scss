@@ -25,3 +25,85 @@ body {
 	width: 90%;
 	margin: 0 auto;
 }
+
+// Navigation
+.nav {
+	display: flex;
+	flex-direction: column;
+
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__toggle {
+		display: flex;
+		align-items: center;
+		font-size: 5rem;
+	}
+
+	#toggle {
+		display: none;
+
+		&:checked + .nav__items {
+			display: block;
+
+		}
+	}
+
+
+	&__logo {
+		height: 5rem;
+	}
+
+	&__hamburger {
+		cursor: pointer
+	}
+
+	&__items {
+		align-self: center;
+		width: 115%;
+		height: 60vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		display: none;
+	}
+
+	&__item {
+		list-style: none;
+		margin: 1rem 0;
+		font-size: 3rem;
+		width: 100%;
+		text-align: center;
+		display: block;
+
+		a,
+		a:link,
+		a:visited {
+			color: gray;
+			text-decoration: none;
+		}
+	}
+
+	&__cta {
+		background-color: orange;
+		padding: 1.5rem 0;
+		width: 80%;
+		border-radius: 1.5rem;
+		cursor: pointer;
+		margin: 0 auto;
+
+		a,
+		a:link,
+		a:visited {
+			color: #000;
+			width: 100%;
+
+		}
+	}
+
+
+}
