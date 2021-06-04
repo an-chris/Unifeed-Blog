@@ -131,7 +131,10 @@ body {
   margin-bottom: 3rem; }
   @media only screen and (min-width: 73rem) {
     .footer {
-      width: 80%; } }
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; } }
   .footer__logo {
     display: block;
     margin-bottom: 1rem; }
