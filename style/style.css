@@ -24,6 +24,10 @@ body {
   margin-top: 3rem;
   display: flex;
   flex-direction: column; }
+  @media only screen and (min-width: 46.8rem) {
+    .nav {
+      flex-direction: row;
+      justify-content: space-between; } }
   .nav__menu {
     display: flex;
     justify-content: space-between;
@@ -32,6 +36,9 @@ body {
     display: flex;
     align-items: center;
     font-size: 3rem; }
+  @media only screen and (min-width: 46.8rem) {
+    .nav__hamburger {
+      display: none; } }
   .nav #toggle {
     display: none; }
     .nav #toggle:checked + .nav__items {
@@ -48,12 +55,22 @@ body {
     flex-direction: column;
     align-items: center;
     display: none; }
+    @media only screen and (min-width: 46.8rem) {
+      .nav__items {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 50%; } }
   .nav__item {
     list-style: none;
     margin: 4rem 0;
     font-size: 3rem;
     width: 100%;
     text-align: center; }
+    @media only screen and (min-width: 46.8rem) {
+      .nav__item {
+        font-size: 1.2rem;
+        margin: 0; } }
     .nav__item a,
     .nav__item a:link,
     .nav__item a:visited {
@@ -65,7 +82,12 @@ body {
     width: 80%;
     border-radius: 1.5rem;
     cursor: pointer;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-weight: 700; }
+    @media only screen and (min-width: 46.8rem) {
+      .nav__cta {
+        border-radius: 5px;
+        padding: .8rem 1rem; } }
     .nav__cta a,
     .nav__cta a:link,
     .nav__cta a:visited {

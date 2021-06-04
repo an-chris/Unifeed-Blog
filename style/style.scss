@@ -39,6 +39,12 @@ body {
 	display: flex;
 	flex-direction: column;
 
+	@media only screen and (min-width: $tablet) {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+
 	&__menu {
 		display: flex;
 		justify-content: space-between;
@@ -49,6 +55,13 @@ body {
 		display: flex;
 		align-items: center;
 		font-size: 3rem;
+	}
+
+	&__hamburger {
+
+		@media only screen and (min-width: $tablet) {
+			display: none;
+		}
 	}
 
 	#toggle {
@@ -77,6 +90,14 @@ body {
 		flex-direction: column;
 		align-items: center;
 		display: none;
+
+		@media only screen and (min-width: $tablet) {
+			display: flex;
+			flex-direction: row;
+			height: auto;
+			width: 50%;
+
+		}
 	}
 
 	&__item {
@@ -85,6 +106,12 @@ body {
 		font-size: 3rem;
 		width: 100%;
 		text-align: center;
+
+		@media only screen and (min-width: $tablet) {
+			font-size: 1.2rem;
+			margin: 0;
+
+		}
 
 
 		a,
@@ -102,6 +129,12 @@ body {
 		border-radius: 1.5rem;
 		cursor: pointer;
 		margin: 0 auto;
+		font-weight: 700;
+
+		@media only screen and (min-width: $tablet) {
+			border-radius: 5px;
+			padding: .8rem 1rem;
+		}
 
 		a,
 		a:link,
