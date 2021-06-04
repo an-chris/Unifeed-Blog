@@ -3,7 +3,7 @@
 
 // Breakpoints
 $tablet: 40rem; // 640px
-$desktop: 73rem; // 1168px
+$desktop: 73rem; //1168px
 
 // Default styling
 *,
@@ -31,6 +31,10 @@ body {
 .container {
 	width: 90%;
 	margin: 0 auto;
+
+	@media only screen and (min-width: $desktop) {
+		width: 80%;
+	}
 }
 
 // Navigation
@@ -192,6 +196,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3rem;
+
+	@media only screen and (min-width: $desktop) {
+		width: 80%;
+	}
 
 
 	&__logo {
