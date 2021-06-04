@@ -18,6 +18,7 @@ body {
   margin: 0 auto; }
 
 .nav {
+  margin-top: 3rem;
   display: flex;
   flex-direction: column; }
   .nav__menu {
@@ -27,13 +28,13 @@ body {
   .nav__toggle {
     display: flex;
     align-items: center;
-    font-size: 5rem; }
+    font-size: 3rem; }
   .nav #toggle {
     display: none; }
     .nav #toggle:checked + .nav__items {
       display: block; }
   .nav__logo {
-    height: 5rem; }
+    height: 3rem; }
   .nav__hamburger {
     cursor: pointer; }
   .nav__items {
