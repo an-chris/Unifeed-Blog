@@ -139,3 +139,23 @@ body {
 		}
 	}
 }
+
+// Footer
+.footer {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+
+
+	&__logo {
+		display: block;
+		margin-bottom: 1rem;
+	}
+
+	&__copyright {
+		color: gray;
+		font-weight: 400;
+		font-size: 1.3rem;
+	}
+}
