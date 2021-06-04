@@ -154,6 +154,10 @@ body {
 		width: 100%;
 		height: 22rem;
 		object-fit: cover;
+
+		@media only screen and (min-width: $tablet) {
+			height: 30rem;
+		}
 	}
 
 	&__title {

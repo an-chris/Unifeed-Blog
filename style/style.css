@@ -100,6 +100,9 @@ body {
     width: 100%;
     height: 22rem;
     object-fit: cover; }
+    @media only screen and (min-width: 40rem) {
+      .article__img {
+        height: 30rem; } }
   .article__title {
     font-size: 3rem;
     margin: 1.5rem 0; }
