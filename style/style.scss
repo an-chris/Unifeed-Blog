@@ -65,21 +65,20 @@ body {
 	&__items {
 		align-self: center;
 		width: 115%;
-		height: 60vh;
+		height: 50vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-around;
 		display: none;
 	}
 
 	&__item {
 		list-style: none;
-		margin: 1rem 0;
+		margin: 4rem 0;
 		font-size: 3rem;
 		width: 100%;
 		text-align: center;
-		display: block;
+
 
 		a,
 		a:link,
@@ -113,6 +112,8 @@ body {
 
 	&__img {
 		width: 100%;
+		height: 22rem;
+		object-fit: cover;
 	}
 
 	&__title {

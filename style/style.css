@@ -40,19 +40,17 @@ body {
   .nav__items {
     align-self: center;
     width: 115%;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     display: none; }
   .nav__item {
     list-style: none;
-    margin: 1rem 0;
+    margin: 4rem 0;
     font-size: 3rem;
     width: 100%;
-    text-align: center;
-    display: block; }
+    text-align: center; }
     .nav__item a,
     .nav__item a:link,
     .nav__item a:visited {
@@ -74,7 +72,9 @@ body {
 .article {
   margin: 4rem 0; }
   .article__img {
-    width: 100%; }
+    width: 100%;
+    height: 22rem;
+    object-fit: cover; }
   .article__title {
     font-size: 3rem;
     margin: 1.5rem 0; }
