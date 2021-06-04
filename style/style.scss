@@ -35,6 +35,7 @@ body {
 	@media only screen and (min-width: $desktop) {
 		width: 80%;
 	}
+
 }
 
 // Navigation
@@ -101,7 +102,10 @@ body {
 			flex-direction: row;
 			height: auto;
 			width: 60%;
+		}
 
+		@media only screen and (min-width: $desktop) {
+			width: 45%;
 		}
 	}
 
