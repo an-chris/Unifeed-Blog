@@ -9,7 +9,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
-  @media only screen and (min-width: 46.8rem) {
+  @media only screen and (min-width: 40rem) {
     html {
       font-size: 85%; } }
 
@@ -24,7 +24,7 @@ body {
   margin-top: 3rem;
   display: flex;
   flex-direction: column; }
-  @media only screen and (min-width: 46.8rem) {
+  @media only screen and (min-width: 40rem) {
     .nav {
       flex-direction: row;
       justify-content: space-between; } }
@@ -36,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 3rem; }
-  @media only screen and (min-width: 46.8rem) {
+  @media only screen and (min-width: 40rem) {
     .nav__hamburger {
       display: none; } }
   .nav #toggle {
@@ -55,19 +55,19 @@ body {
     flex-direction: column;
     align-items: center;
     display: none; }
-    @media only screen and (min-width: 46.8rem) {
+    @media only screen and (min-width: 40rem) {
       .nav__items {
         display: flex;
         flex-direction: row;
         height: auto;
-        width: 50%; } }
+        width: 60%; } }
   .nav__item {
     list-style: none;
     margin: 4rem 0;
     font-size: 3rem;
     width: 100%;
     text-align: center; }
-    @media only screen and (min-width: 46.8rem) {
+    @media only screen and (min-width: 40rem) {
       .nav__item {
         font-size: 1.2rem;
         margin: 0; } }
@@ -84,7 +84,7 @@ body {
     cursor: pointer;
     margin: 0 auto;
     font-weight: 700; }
-    @media only screen and (min-width: 46.8rem) {
+    @media only screen and (min-width: 40rem) {
       .nav__cta {
         border-radius: 5px;
         padding: .8rem 1rem; } }

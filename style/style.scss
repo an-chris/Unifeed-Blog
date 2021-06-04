@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap);
 
 // Breakpoints
-$tablet: 46.8rem; // 750px
+$tablet: 40rem; // 640px
 
 
 // Default styling
@@ -95,7 +95,7 @@ body {
 			display: flex;
 			flex-direction: row;
 			height: auto;
-			width: 50%;
+			width: 60%;
 
 		}
 	}
