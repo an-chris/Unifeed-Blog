@@ -17,6 +17,10 @@ $tablet: 46.8rem; // 750px
 html {
 	box-sizing: border-box;
 	font-size: 62.5%; // 1rem = 10px;
+
+	@media only screen and (min-width: $tablet) {
+		font-size: 85%;
+	}
 }
 
 body {
